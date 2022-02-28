@@ -5,7 +5,225 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    .td-center {
+        text-align: center;
+    }
+
+    td {
+        height: 50px;
+    }
+</style>
 <body>
-    <h1>Hello, World!</h1>
+    <div>
+        <table border="1" style="width: 100%;">
+            <tr>
+                <th style="width: 50%;">Codes</th>
+                <th>Output</th>
+            </tr>
+            <tr>
+                <td>&lt;h1>Heading 1&lt;/h1></td>
+                <td class="td-center"><h1>Heading 1</h1></td>
+            </tr>
+            <tr>
+                <td>&lt;h2>Heading 2&lt;/h2></td>
+                <td class="td-center"><h2>Heading 2</h2></td>
+            </tr>
+            <tr>
+                <td>&lt;h3>Heading 3&lt;/h3></td>
+                <td class="td-center"><h3>Heading 3</h3></td>
+            </tr>
+            <tr>
+                <td>&lt;h4>Heading 4&lt;/h4></td>
+                <td class="td-center"><h4>Heading 4</h4></td>
+            </tr>
+            <tr>
+                <td>&lt;h5>Heading 5&lt;/h5></td>
+                <td class="td-center"><h5>Heading 5</h5></td>
+            </tr>
+            <tr>
+                <td>&lt;h6>Heading 6&lt;/h6></td>
+                <td class="td-center"><h6>Heading 6</h6></td>
+            </tr>
+            <tr>
+                <td>&lt;p>paragraph qwerty uiop&lt;/p></td>
+                <td><p>paragraph qwerty uiop</p></td>
+            </tr>
+            <tr>
+                <td>&lt;p>This is &lt;b>bold&lt;/b> text&lt;/p></td>
+                <td><p>This is <b>bold</b> text</p></td>
+            </tr>
+            <tr>
+                <td>&lt;p>This is &lt;i>italized&lt;/i> text&lt;/p></td>
+                <td><p>This is <i>italized</i> text</p></td>
+            </tr>
+            <tr>
+                <td>&lt;p>This is &lt;u>underlined&lt;/u> text&lt;/p></td>
+                <td><p>This is <u>underlined</u> text</p></td>
+            </tr>
+            <tr>
+                <td>&lt;p>This is &lt;strong>strong&lt;/strong> text&lt;/p></td>
+                <td><p>This is <strong>strong</strong> text</p></td>
+            </tr>
+            <tr>
+                <td>&lt;p>This is &lt;small>small&lt;/small>text&lt;/p></td>
+                <td><p>This is <small>small</small>text</p></td>
+            </tr>
+            <tr>
+                <td>&lt;p>This is &lt;mark>text&lt;/mark>&lt;/p></td>
+                <td><p>This is <mark>text</mark></p></td>
+            </tr>
+            <tr>
+                <td>&lt;p>x&lt;sup>3&lt;/sup>&lt;/p></td>
+                <td><p>x<sup>3</sup></p></td>
+            </tr>
+            <tr>
+                <td>&lt;p>H&lt;sup>2&lt;/sup>O&lt;/p></td>
+                <td><p>H<sup>2</sup>O</p></td>
+            </tr>
+            <tr>
+                <td>&lt;p>This is your conscience with &lt;br>line break tag&lt;/p></td>
+                <td><p>This is your conscience with <br> line break tag</p></td>
+            </tr>
+            <tr>
+                <td>&lt;img src="https://www.merkur.de/bilder/2022/02/27/91376106/28331192-wladimir-putin-24fe.jpg" height="300" width="500" align="right"></td>
+                <td><img src="https://www.merkur.de/bilder/2022/02/27/91376106/28331192-wladimir-putin-24fe.jpg" height="300" width="500" align="right"></td>
+            </tr>
+            <tr>
+                <td>&lt;h3>I am&lt;span style="color:red">span&lt;/span>&lt;/h3></td>
+                <td><h3>I am <span style="color:red">span</h3></td>
+            </tr>
+            <tr>
+                <td>&lt;q>mga bobo&lt;/q>&lt;br>-atty.gadon</td>
+                <td><q>mga bobo</q><br>-atty.gadon</td>
+            </tr>
+            <tr>
+                <td>"mga bobo"&lt;br>-atty.gadon</td>
+                <td>"mga bobo"<br>-atty.gadon</td>
+            </tr>
+            <tr>
+                <td>&lt;blockquote>mga bobo&lt;/blockquote></td>
+                <td><blockquote>mga bobo</blockquote></td>
+            </tr>
+            <tr>
+                <td>the &lt;abbr title="world wide web consortium">w3c&lt;/abbr> is the main international standards organization for the world wide web.</td>
+                <td>the <abbr title="world wide web consortium">w3c</abbr> is the main international standards organization for the world wide web.</td>
+            </tr>
+            <tr>
+                <td>
+                    <pre>
+                        &lt;ol type="a" start="4">
+                            &lt;li>Food&lt;/li>
+                            &lt;li>Drinks&lt;/li>
+                            &lt;ol>
+                                &lt;li>Iced tea&lt;/li>
+                                &lt;li>Coffee&lt;/li>
+                            &lt;/ol>
+                            &lt;li>Snacks&lt;/li>
+                        &lt;/ol>
+                    </pre>
+                </td>
+                <td>
+                    <ol type="a" start="4">
+                        <li>Food</li>
+                        <li>Drinks</li>
+                        <ol>
+                            <li>Iced tea</li>
+                            <li>Coffee</li>
+                        </ol>
+                        <li>Snacks</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <pre>
+                        &lt;ul type="square">
+                            &lt;li>Food&lt;/li>
+                            &lt;li>Drinks&lt;/li>
+                            &lt;ol type="i">
+                                &lt;li>Iced tea&lt;/li>
+                                &lt;li>Coffee&lt;/li>
+                            &lt;/ol>
+                            &lt;li>Snacks&lt;/li>
+                        &lt;/ul>
+                    </pre>
+                </td>
+                <td>
+                    <ul type="square">
+                        <li>Food</li>
+                        <li>Drinks</li>
+                        <ol type="I">
+                            <li>Iced tea</li>
+                            <li>Coffee</li>
+                        </ol>
+                        <li>Snacks</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <pre>
+                        &lt;dl>
+                            &lt;dt>Coffee&lt;/dt>
+                            &lt;dd>-black and hot drink&lt;/dd>
+                            &lt;dt>Milk&lt;/dt>
+                            &lt;dd>-white cold drink&lt;/dd>
+                        &lt;/dl>
+                    </pre>
+                </td>
+                <td>
+                    <dl>
+                        <dt>Coffee</dt>
+                        <dd>-black and hot drink</dd>
+                        <dt>Milk</dt>
+                        <dd>-white cold drink</dd>
+                    </dl>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <pre>
+                        &lt;table border="1">
+                            &lt;tr>
+                                &lt;td>name&lt;/td>
+                                &lt;td>email&lt;/td>
+                                &lt;td>address&lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Cardo Dalisay&lt;/td>
+                                &lt;td>cardo.dalisay@gmail.com&lt;/td>
+                                &lt;td>province&lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Bong Revilla&lt;/td>
+                                &lt;td>bong.revilla@gmail.com&lt;/td>
+                                &lt;td>kalikasan&lt;/td>
+                            &lt;/tr>
+                        &lt;/table>
+                    </pre>
+                </td>
+                <td>
+                    <table border="1">
+                        <tr>
+                            <td>name</td>
+                            <td>email</td>
+                            <td>address</td>
+                        </tr>
+                        <tr>
+                            <td>Cardo Dalisay</td>
+                            <td>cardo.dalisay@gmail.com</td>
+                            <td>province</td>
+                        </tr>
+                        <tr>
+                            <td>Bong Revilla</td>
+                            <td>bong.revilla@gmail.com</td>
+                            <td>kalikasan</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>
